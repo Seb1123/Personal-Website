@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: auto;
+    height: 800px;
+}
