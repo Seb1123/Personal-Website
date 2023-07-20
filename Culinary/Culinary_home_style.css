@@ -1,3 +1,8 @@
 body {
     background-color: bisque;
 }
+
+ol img {
+    width: 500px;
+    height: 500px;
+}

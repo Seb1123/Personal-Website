@@ -12,6 +12,7 @@ h1 {
 .nav-list {
     border: 5px solid black;
 }
+
 .nav-list ul{
     display: flex;
     flex-flow: row nowrap;
