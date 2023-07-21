@@ -2,7 +2,12 @@ body {
     background-color: bisque;
 }
 
+img {
+    width: 500px;
+    height: auto;
+}
+
 ol img {
     width: 500px;
-    height: 500px;
+    height: auto;
 }
