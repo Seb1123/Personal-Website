@@ -11,3 +11,54 @@ ol img {
     width: 500px;
     height: auto;
 }
+
+.Week_Box {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 3px solid black;
+    padding: none;
+    justify-content: space-between;
+}
+
+.Week_Box h3 {
+    display: flex;
+    justify-content: center;
+    margin: none;
+    flex: 1;
+    border-bottom: 3px solid black;
+}
+
+.Week_Box img {
+    width: 200px;
+    height: auto;
+}
+
+.Week_Box .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    /*border: 2px solid red;*/
+}
+
+.Monday, .Tuesday, .Wednesday, .Thursday, .Friday, .Saturday, .Sunday {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.date {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
