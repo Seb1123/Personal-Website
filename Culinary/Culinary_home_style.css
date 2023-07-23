@@ -1,5 +1,7 @@
 body {
     background-color: bisque;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 img {
@@ -18,14 +20,15 @@ ol img {
     border: 3px solid black;
     padding: none;
     justify-content: space-between;
+    width: auto;
+    justify-self: center;
+    align-self: center;
 }
 
 .Week_Box h3 {
     display: flex;
     justify-content: center;
     margin: none;
-    flex: 1;
-    border-bottom: 3px solid black;
 }
 
 .Week_Box img {
@@ -36,7 +39,7 @@ ol img {
 .Week_Box .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content:center;
     
     /*border: 2px solid red;*/
 }
