@@ -4,16 +4,6 @@ body {
     flex-flow: column wrap;
 }
 
-img {
-    width: 500px;
-    height: auto;
-}
-
-ol img {
-    width: 500px;
-    height: auto;
-}
-
 .Week_Box {
     display: flex;
     flex-flow: column nowrap;
@@ -32,7 +22,7 @@ ol img {
 }
 
 .Week_Box img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
