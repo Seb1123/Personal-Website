@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.paragraph {
+    text-indent: 50px;
+}
