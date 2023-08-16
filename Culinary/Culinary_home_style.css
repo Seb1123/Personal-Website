@@ -39,14 +39,29 @@ body {
     flex-flow: column nowrap;
     border: 2px solid black;
     align-items: center;
+    justify-content: space-between;
 }
 
-.date {
+.content a {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: flex-end;
-    justify-self: flex-end;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.content a .date{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sunday .date {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
