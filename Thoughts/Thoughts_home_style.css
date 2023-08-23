@@ -1,8 +1,40 @@
 body {
     background-color: bisque;
+    display:flex;
+    flex-flow: column nowrap;
 }
 
 img {
     width: 500px;
     height: auto;
+}
+
+h3 {
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid black;
+    padding: 0px;
+    position: fixed; /*Life-saver*/
+    gap: 20px;
+    list-style-type: none;
+    width: 100px;
+}
+
+li {             /*This display needs to get fixed. You need to make boxes for each list item.*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    padding-left: 0;
+    margin-top: 0;
+    flex: 1;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
 }
