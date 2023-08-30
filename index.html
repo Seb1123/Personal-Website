@@ -4,6 +4,7 @@
     
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Telemachus</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -13,7 +14,7 @@
         <div class="Head">
             <h1>Sebastian's Page</h1>
         </div>
-
+        
         <div class="nav-list">
             <ul>
                 <a href="./Culinary/Culinary_home.html" target="_blank" rel="noopener noreferrer">
@@ -37,7 +38,37 @@
         <h3>About me</h3>
         <p>Hello, my name is Sebastian Erquiaga and welcome to my website!</p>
         <!-- <p>Let's begin at the beginning. I was born in Lima, Peru in 1994 and grew up in the district of Miraflores. At 9 years old I moved with my family to the United States (Granada Hills, California).</p> -->
+        
+        <button>Update</button>
+        <canvas></canvas>
+    <script>
+    const btn = document.querySelector('button');
+    const canvas = document.querySelector('canvas');
+    const ctx = canvas.getContext('2d');
 
+    let WIDTH = document.documentElement.clientWidth;
+    let HEIGHT = document.documentElement.clientHeight;
+
+    canvas.width = WIDTH;
+    canvas.height = HEIGHT;
+
+    function random(number) {
+      return Math.floor(Math.random()*number);
+    }
+
+    function draw() {
+      ctx.clearRect(0,0,WIDTH,HEIGHT);
+      for(let i = 0; i < 100; i++) {
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(255, 0, 0, 0.5)';
+        ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
+        ctx.fill();
+      }
+    }
+
+    btn.addEventListener('click',draw);
+
+    </script>
     </body>
 
 </html>

@@ -24,3 +24,22 @@ h1 {
     margin: 10px 10px;
     list-style-type: none;
 }
+
+html {
+    width: 100%;
+    height: inherit;
+}
+
+canvas {
+    display: inline;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
